@@ -1,3 +1,4 @@
+
 function checkPrime(number){
 factor=0;
 
@@ -9,9 +10,11 @@ factor++
 }
 if(factor==2){
 return true;
+
 }
 return false;
 }
+
 
 
 answer=checkPrime(13);
