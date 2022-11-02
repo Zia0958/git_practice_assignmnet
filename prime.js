@@ -1,25 +1,25 @@
-function checkPrime(num){
-counter=0;
 
-for(i=i;i<=num;i++){
+function checkPrime(number){
+factor=0;
+
+for(i=1;i<=num;i++){
 
 if(num%i==0){
-
-counter++
-
+factor++
 }
-
 }
-
-if(countr==2){
+if(factor==2){
 return true;
+
 }
 return false;
 }
-   ans= checkPrime(13);
 
-if(ans=true){
-console.log("Number is Prime")
+
+
+answer=checkPrime(13);
+if(answer=true){
+console.log("Prime Number");
 }else{
-console.log("Number is Not Prime")
+console.log("Not a Prime Number");
 }
